@@ -7,6 +7,7 @@
 //
 
 #import "JKLanguageBundleTests.h"
+#import "LanguageBundle.h"
 
 @implementation JKLanguageBundleTests
 
@@ -24,9 +25,19 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSingleKeyWithExistKey
 {
-    STFail(@"Unit tests are not implemented yet in JKLanguageBundleTests");
+    [LanguageBundle setLanguage:@"en"];
+    NSString *helloWord = [LanguageBundle localizableStringForKey:@"common_hello"];
+    STAssertEqualObjects(helloWord ,@"Hello", @"");
+    
+    [LanguageBundle setLanguage:@"fr"];
+    NSString *frHello = [LanguageBundle localizableStringForKey:@"common_hello"];
+    STAssertEqualObjects(frHello, @"Bonjour", @"");
+    
+    [LanguageBundle setLanguage:@"es"];
+    NSString *esHello = [LanguageBundle localizableStringForKey:@"common_hello"];
+    STAssertEqualObjects(esHello, @"Hola", @"");
 }
 
 @end

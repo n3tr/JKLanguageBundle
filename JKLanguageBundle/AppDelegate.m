@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LanguageBundle.h"
 
 @implementation AppDelegate
 

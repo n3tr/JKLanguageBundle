@@ -18,6 +18,9 @@
 		6ABD7C9015ECECE8003A927C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C7715ECECE8003A927C /* Foundation.framework */; };
 		6ABD7C9815ECECE8003A927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD7C9615ECECE8003A927C /* InfoPlist.strings */; };
 		6ABD7C9B15ECECE8003A927C /* JKLanguageBundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD7C9A15ECECE8003A927C /* JKLanguageBundleTests.m */; };
+		6ABD7CAC15ECED05003A927C /* LanguageBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD7CAB15ECED05003A927C /* LanguageBundle.m */; };
+		6ABD7CB015ECED5C003A927C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD7CB215ECED5C003A927C /* Localizable.strings */; };
+		6ABD7CB515ECEE03003A927C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD7CB215ECED5C003A927C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,11 @@
 		6ABD7C9715ECECE8003A927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ABD7C9915ECECE8003A927C /* JKLanguageBundleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKLanguageBundleTests.h; sourceTree = "<group>"; };
 		6ABD7C9A15ECECE8003A927C /* JKLanguageBundleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKLanguageBundleTests.m; sourceTree = "<group>"; };
+		6ABD7CAA15ECED05003A927C /* LanguageBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanguageBundle.h; path = Classes/LanguageBundle.h; sourceTree = "<group>"; };
+		6ABD7CAB15ECED05003A927C /* LanguageBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LanguageBundle.m; path = Classes/LanguageBundle.m; sourceTree = "<group>"; };
+		6ABD7CB115ECED5C003A927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6ABD7CB315ECED6E003A927C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6ABD7CB415ECED72003A927C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +84,10 @@
 		6ABD7C6615ECECE8003A927C = {
 			isa = PBXGroup;
 			children = (
-				6ABD7C7B15ECECE8003A927C /* JKLanguageBundle */,
+				6ABD7CA815ECECEF003A927C /* Classes */,
+				6ABD7CAD15ECED43003A927C /* LanguageString */,
 				6ABD7C9315ECECE8003A927C /* JKLanguageBundleTests */,
-				6ABD7C7415ECECE8003A927C /* Frameworks */,
+				6ABD7D0D15ECF491003A927C /* SRC */,
 				6ABD7C7215ECECE8003A927C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,6 +150,32 @@
 				6ABD7C9615ECECE8003A927C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ABD7CA815ECECEF003A927C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7CAA15ECED05003A927C /* LanguageBundle.h */,
+				6ABD7CAB15ECED05003A927C /* LanguageBundle.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6ABD7CAD15ECED43003A927C /* LanguageString */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7CB215ECED5C003A927C /* Localizable.strings */,
+			);
+			name = LanguageString;
+			sourceTree = "<group>";
+		};
+		6ABD7D0D15ECF491003A927C /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C7B15ECECE8003A927C /* JKLanguageBundle */,
+				6ABD7C7415ECECE8003A927C /* Frameworks */,
+			);
+			name = SRC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABD7C8015ECECE8003A927C /* InfoPlist.strings in Resources */,
+				6ABD7CB015ECED5C003A927C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABD7C9815ECECE8003A927C /* InfoPlist.strings in Resources */,
+				6ABD7CB515ECEE03003A927C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +288,7 @@
 			files = (
 				6ABD7C8215ECECE8003A927C /* main.m in Sources */,
 				6ABD7C8615ECECE8003A927C /* AppDelegate.m in Sources */,
+				6ABD7CAC15ECED05003A927C /* LanguageBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +325,16 @@
 				6ABD7C9715ECECE8003A927C /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ABD7CB215ECED5C003A927C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABD7CB115ECED5C003A927C /* en */,
+				6ABD7CB315ECED6E003A927C /* fr */,
+				6ABD7CB415ECED72003A927C /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +464,7 @@
 				6ABD7CA015ECECE8003A927C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ABD7CA115ECECE8003A927C /* Build configuration list for PBXNativeTarget "JKLanguageBundleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +473,7 @@
 				6ABD7CA315ECECE8003A927C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  JKLanguageBundle
+
+  Created by Jirat K on 8/28/55 BE.
+  Copyright (c) 2555 Allianz. All rights reserved.
+*/
+
+"common_hello" = "Hello";
