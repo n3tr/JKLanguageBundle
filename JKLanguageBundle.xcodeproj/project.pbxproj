@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABD7C7615ECECE8003A927C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C7515ECECE8003A927C /* UIKit.framework */; };
+		6ABD7C7815ECECE8003A927C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C7715ECECE8003A927C /* Foundation.framework */; };
+		6ABD7C7A15ECECE8003A927C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C7915ECECE8003A927C /* CoreGraphics.framework */; };
+		6ABD7C8015ECECE8003A927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD7C7E15ECECE8003A927C /* InfoPlist.strings */; };
+		6ABD7C8215ECECE8003A927C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD7C8115ECECE8003A927C /* main.m */; };
+		6ABD7C8615ECECE8003A927C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD7C8515ECECE8003A927C /* AppDelegate.m */; };
+		6ABD7C8E15ECECE8003A927C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C8D15ECECE8003A927C /* SenTestingKit.framework */; };
+		6ABD7C8F15ECECE8003A927C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C7515ECECE8003A927C /* UIKit.framework */; };
+		6ABD7C9015ECECE8003A927C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD7C7715ECECE8003A927C /* Foundation.framework */; };
+		6ABD7C9815ECECE8003A927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD7C9615ECECE8003A927C /* InfoPlist.strings */; };
+		6ABD7C9B15ECECE8003A927C /* JKLanguageBundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD7C9A15ECECE8003A927C /* JKLanguageBundleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABD7C9115ECECE8003A927C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABD7C6815ECECE8003A927C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABD7C7015ECECE8003A927C;
+			remoteInfo = JKLanguageBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ABD7C7115ECECE8003A927C /* JKLanguageBundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKLanguageBundle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABD7C7515ECECE8003A927C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ABD7C7715ECECE8003A927C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ABD7C7915ECECE8003A927C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ABD7C7D15ECECE8003A927C /* JKLanguageBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKLanguageBundle-Info.plist"; sourceTree = "<group>"; };
+		6ABD7C7F15ECECE8003A927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ABD7C8115ECECE8003A927C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ABD7C8315ECECE8003A927C /* JKLanguageBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKLanguageBundle-Prefix.pch"; sourceTree = "<group>"; };
+		6ABD7C8415ECECE8003A927C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ABD7C8515ECECE8003A927C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ABD7C8C15ECECE8003A927C /* JKLanguageBundleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKLanguageBundleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABD7C8D15ECECE8003A927C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6ABD7C9515ECECE8003A927C /* JKLanguageBundleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKLanguageBundleTests-Info.plist"; sourceTree = "<group>"; };
+		6ABD7C9715ECECE8003A927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ABD7C9915ECECE8003A927C /* JKLanguageBundleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKLanguageBundleTests.h; sourceTree = "<group>"; };
+		6ABD7C9A15ECECE8003A927C /* JKLanguageBundleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKLanguageBundleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABD7C6E15ECECE8003A927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD7C7615ECECE8003A927C /* UIKit.framework in Frameworks */,
+				6ABD7C7815ECECE8003A927C /* Foundation.framework in Frameworks */,
+				6ABD7C7A15ECECE8003A927C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABD7C8815ECECE8003A927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD7C8E15ECECE8003A927C /* SenTestingKit.framework in Frameworks */,
+				6ABD7C8F15ECECE8003A927C /* UIKit.framework in Frameworks */,
+				6ABD7C9015ECECE8003A927C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABD7C6615ECECE8003A927C = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C7B15ECECE8003A927C /* JKLanguageBundle */,
+				6ABD7C9315ECECE8003A927C /* JKLanguageBundleTests */,
+				6ABD7C7415ECECE8003A927C /* Frameworks */,
+				6ABD7C7215ECECE8003A927C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABD7C7215ECECE8003A927C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C7115ECECE8003A927C /* JKLanguageBundle.app */,
+				6ABD7C8C15ECECE8003A927C /* JKLanguageBundleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABD7C7415ECECE8003A927C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C7515ECECE8003A927C /* UIKit.framework */,
+				6ABD7C7715ECECE8003A927C /* Foundation.framework */,
+				6ABD7C7915ECECE8003A927C /* CoreGraphics.framework */,
+				6ABD7C8D15ECECE8003A927C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABD7C7B15ECECE8003A927C /* JKLanguageBundle */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C8415ECECE8003A927C /* AppDelegate.h */,
+				6ABD7C8515ECECE8003A927C /* AppDelegate.m */,
+				6ABD7C7C15ECECE8003A927C /* Supporting Files */,
+			);
+			path = JKLanguageBundle;
+			sourceTree = "<group>";
+		};
+		6ABD7C7C15ECECE8003A927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C7D15ECECE8003A927C /* JKLanguageBundle-Info.plist */,
+				6ABD7C7E15ECECE8003A927C /* InfoPlist.strings */,
+				6ABD7C8115ECECE8003A927C /* main.m */,
+				6ABD7C8315ECECE8003A927C /* JKLanguageBundle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ABD7C9315ECECE8003A927C /* JKLanguageBundleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C9915ECECE8003A927C /* JKLanguageBundleTests.h */,
+				6ABD7C9A15ECECE8003A927C /* JKLanguageBundleTests.m */,
+				6ABD7C9415ECECE8003A927C /* Supporting Files */,
+			);
+			path = JKLanguageBundleTests;
+			sourceTree = "<group>";
+		};
+		6ABD7C9415ECECE8003A927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD7C9515ECECE8003A927C /* JKLanguageBundleTests-Info.plist */,
+				6ABD7C9615ECECE8003A927C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABD7C7015ECECE8003A927C /* JKLanguageBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABD7C9E15ECECE8003A927C /* Build configuration list for PBXNativeTarget "JKLanguageBundle" */;
+			buildPhases = (
+				6ABD7C6D15ECECE8003A927C /* Sources */,
+				6ABD7C6E15ECECE8003A927C /* Frameworks */,
+				6ABD7C6F15ECECE8003A927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKLanguageBundle;
+			productName = JKLanguageBundle;
+			productReference = 6ABD7C7115ECECE8003A927C /* JKLanguageBundle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABD7C8B15ECECE8003A927C /* JKLanguageBundleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABD7CA115ECECE8003A927C /* Build configuration list for PBXNativeTarget "JKLanguageBundleTests" */;
+			buildPhases = (
+				6ABD7C8715ECECE8003A927C /* Sources */,
+				6ABD7C8815ECECE8003A927C /* Frameworks */,
+				6ABD7C8915ECECE8003A927C /* Resources */,
+				6ABD7C8A15ECECE8003A927C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABD7C9215ECECE8003A927C /* PBXTargetDependency */,
+			);
+			name = JKLanguageBundleTests;
+			productName = JKLanguageBundleTests;
+			productReference = 6ABD7C8C15ECECE8003A927C /* JKLanguageBundleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABD7C6815ECECE8003A927C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Allianz;
+			};
+			buildConfigurationList = 6ABD7C6B15ECECE8003A927C /* Build configuration list for PBXProject "JKLanguageBundle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ABD7C6615ECECE8003A927C;
+			productRefGroup = 6ABD7C7215ECECE8003A927C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABD7C7015ECECE8003A927C /* JKLanguageBundle */,
+				6ABD7C8B15ECECE8003A927C /* JKLanguageBundleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABD7C6F15ECECE8003A927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD7C8015ECECE8003A927C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABD7C8915ECECE8003A927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD7C9815ECECE8003A927C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ABD7C8A15ECECE8003A927C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABD7C6D15ECECE8003A927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD7C8215ECECE8003A927C /* main.m in Sources */,
+				6ABD7C8615ECECE8003A927C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABD7C8715ECECE8003A927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD7C9B15ECECE8003A927C /* JKLanguageBundleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABD7C9215ECECE8003A927C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABD7C7015ECECE8003A927C /* JKLanguageBundle */;
+			targetProxy = 6ABD7C9115ECECE8003A927C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABD7C7E15ECECE8003A927C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABD7C7F15ECECE8003A927C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ABD7C9615ECECE8003A927C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABD7C9715ECECE8003A927C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABD7C9C15ECECE8003A927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ABD7C9D15ECECE8003A927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABD7C9F15ECECE8003A927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKLanguageBundle/JKLanguageBundle-Prefix.pch";
+				INFOPLIST_FILE = "JKLanguageBundle/JKLanguageBundle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ABD7CA015ECECE8003A927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKLanguageBundle/JKLanguageBundle-Prefix.pch";
+				INFOPLIST_FILE = "JKLanguageBundle/JKLanguageBundle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6ABD7CA215ECECE8003A927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKLanguageBundle.app/JKLanguageBundle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKLanguageBundle/JKLanguageBundle-Prefix.pch";
+				INFOPLIST_FILE = "JKLanguageBundleTests/JKLanguageBundleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6ABD7CA315ECECE8003A927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKLanguageBundle.app/JKLanguageBundle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKLanguageBundle/JKLanguageBundle-Prefix.pch";
+				INFOPLIST_FILE = "JKLanguageBundleTests/JKLanguageBundleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABD7C6B15ECECE8003A927C /* Build configuration list for PBXProject "JKLanguageBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABD7C9C15ECECE8003A927C /* Debug */,
+				6ABD7C9D15ECECE8003A927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABD7C9E15ECECE8003A927C /* Build configuration list for PBXNativeTarget "JKLanguageBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABD7C9F15ECECE8003A927C /* Debug */,
+				6ABD7CA015ECECE8003A927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ABD7CA115ECECE8003A927C /* Build configuration list for PBXNativeTarget "JKLanguageBundleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABD7CA215ECECE8003A927C /* Debug */,
+				6ABD7CA315ECECE8003A927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABD7C6815ECECE8003A927C /* Project object */;
+}
