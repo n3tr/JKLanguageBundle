@@ -37,7 +37,7 @@
  @param key
  key of String of your localizable
  */
-+ (NSString *)localizableStringForKey:(NSString *)key;
++ (NSString *)localizedStringForKey:(NSString *)key;
 
 
 /*!
@@ -47,7 +47,7 @@
  @param value
  default value if key not exists in current language
  */
-+ (NSString *)localizableStringForKey:(NSString *)key value:(NSString *)value;
++ (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value;
 
 
 
@@ -60,7 +60,7 @@
  @param lang
  return langauge
  */
-+ (NSString *)localizableStringForKey:(NSString *)key forLanguage:(NSString *)lang;
++ (NSString *)localizedStringForKey:(NSString *)key forLanguage:(NSString *)lang;
 
 
 /*!
@@ -72,7 +72,15 @@
  @param lang
  return langauge
  */
-+ (NSString *)localizableStringForKey:(NSString *)key value:(NSString *)value forLanguage:(NSString *)lang;
++ (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value forLanguage:(NSString *)lang;
+
+@end
+
+
+@interface NSString (LanguageBundleString)
+
+- (NSString *)localized;
+- (NSString *)localizedForLanguage:(NSString *)lang;
 
 @end
 

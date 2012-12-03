@@ -34,26 +34,26 @@
 }
 
 
-+ (NSString *)localizableStringForKey:(NSString *)key
++ (NSString *)localizedStringForKey:(NSString *)key
 {
-    return [LanguageBundle localizableStringForKey:key value:key];
+    return [LanguageBundle localizedStringForKey:key value:key];
 }
 
 
-+ (NSString *)localizableStringForKey:(NSString *)key forLanguage:(NSString *)lang
++ (NSString *)localizedStringForKey:(NSString *)key forLanguage:(NSString *)lang
 {
-    return [LanguageBundle localizableStringForKey:key value:key forLanguage:lang];
+    return [LanguageBundle localizedStringForKey:key value:key forLanguage:lang];
 }
 
 
-+ (NSString *)localizableStringForKey:(NSString *)key value:(NSString *)value
++ (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value
 {
     NSString *lang = [[LanguageBundle mainBundle] currentLanguage];
-    return [LanguageBundle localizableStringForKey:key value:value forLanguage:lang];
+    return [LanguageBundle localizedStringForKey:key value:value forLanguage:lang];
 }
 
 
-+ (NSString *)localizableStringForKey:(NSString *)key value:(NSString *)value forLanguage:(NSString *)lang
++ (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value forLanguage:(NSString *)lang
 {
     if ([key isEqualToString:@""]
         || [[key stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0 ) {
@@ -73,4 +73,19 @@
     return [_tempBundle localizedStringForKey:key value:value table:nil];
 }
 
+@end
+
+@implementation NSString (LanguageBundleString)
+
+- (NSString *)localized
+{
+    return [LanguageBundle localizedStringForKey:self];
+    
+}
+
+
+- (NSString *)localizedForLanguage:(NSString *)lang
+{
+    return [LanguageBundle localizedStringForKey:self forLanguage:lang];
+}
 @end
